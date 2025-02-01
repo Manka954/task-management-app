@@ -1,16 +1,27 @@
-# taskapp
+Task Management App
+📌 Getting Started
+Follow these steps to set up and run the project on your local machine.
 
-A new Flutter project.
+1️⃣ Clone the Repository
+Open your terminal or command prompt and run:
 
-## Getting Started
+sh
+Copy
+Edit
+git clone https://github.com/Manka954/task-management-app.git
+2️⃣ Set Up the Backend
+Move the PHP and PHPMailer-6.9.3 folders into your XAMPP htdocs directory:
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+bash
+Copy
+Edit
+C:/xampp/htdocs/
+3️⃣ Import the Database
+Open phpMyAdmin (usually available at http://localhost/phpmyadmin/).
+Create a new database named task_management.
+Click on Import and select the task_management.sql file from the project.
+Click Go to import the database.
+4️⃣ Run the Project
+Start Apache and MySQL from XAMPP.
+Run the project in your emulator or web browser.
+If you encounter errors in the emulator, try running it in Google Chrome instead.
